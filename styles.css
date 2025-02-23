@@ -1,0 +1,108 @@
+/*ADJUST AFTER WE FINALIZE THE COLOR PALETTE & FONTS*/
+
+html {
+    height: auto;
+    width: 100%;
+    background-color: var(--background);
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #ffb997;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000;
+}
+
+/*  ABOUT
+
+.outer-container{
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #ffb997;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000;
+}
+
+.overview-title h1{
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    color: var(--a);
+    text-align: center;
+}
+
+.overview-paragraph p{
+    font-size: 13px;
+    font-weight: medium;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: var(--a);
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fbefd8 ;
+}
+
+.slide {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-items: center;
+}
+
+.chef{
+    width: 300px;
+    background-color: var(--a);
+    margin: 0 30px 0 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    color:var(--text);
+    text-align: center;
+}
+
+.info{
+    padding: 20px;
+}
+
+.info h2{
+    margin: 0;
+    font-size: 18px;
+}
+
+.info p{
+    margin: 0;
+    font-size: 12px;
+}
+
+.button{
+    text-align: center;
+}
+
+.button-feedback{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: var(--prim);
+    color: var(--text);
+    border-radius: 7px;
+    transition: 0.5s;
+    margin-top: 5%;
+}
+
+.button-feedback:hover {
+    background-color: var(--a);
+    box-shadow: 0 0 20px var(--a);
+}
+
