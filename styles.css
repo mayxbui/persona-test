@@ -40,7 +40,7 @@ body{
     text-align: center;
 }
 
-.overview-paragraph p{
+#overview-paragraph p{
     font-size: 13px;
     font-weight: medium;
     text-align: justify;
@@ -53,7 +53,7 @@ body{
     background-color: #fbefd8 ;
 }
 
-.slide {
+.member {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px; 
