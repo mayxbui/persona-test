@@ -19,8 +19,8 @@ body{
     height: 1000;
 }
 
-/*  ABOUT
 
+/*  KITCHEN - MAIN PAGE
 .outer-container{
     font-family: 'Comfortaa', sans-serif;
     background-color: #ffb997;
@@ -33,7 +33,30 @@ body{
     height: 1000;
 }
 
-.overview-title h1{
+#home-page{
+  text-align: center;
+  margin-top: 5%;
+}
+
+    KITCHEN - QUIZ PAGE
+#progress-bar-container{
+    width: 100%;
+    background-color: var(--text);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#progress-bar{
+    width: 0%;
+    height: 20px;
+    background-color: var(--footer);
+    border-radius: 10px;
+    transition: width 2s ease;
+}
+*/
+
+/*  ABOUT
+#overview-title h1{
     font-size: 20px;
     margin: 20px 0 0 0;
     color: var(--a);
